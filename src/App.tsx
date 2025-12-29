@@ -23,7 +23,7 @@ interface SortConfig {
 }
 
 const App = () => {
-  const [userId, setUserId] = useState('Junpei_Takagi');
+  const [userId, setUserId] = useState('');
   const [apiToken, setApiToken] = useState('');
   const [articles, setArticles] = useState<Article[]>([]);
   const [loading, setLoading] = useState(false);
